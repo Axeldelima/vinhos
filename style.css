@@ -1,0 +1,118 @@
+*{
+max-width: 100%;
+
+
+}
+
+.header{
+background-color: white;
+width: 100%;
+height: 100px;
+
+position: relative;
+}
+
+#logoheader{
+float: left;
+position: absolute;
+margin-left: 30px;
+margin-top: 15px;
+
+
+}
+
+.header-icones{
+float: right;
+margin-right: 30px;
+margin-top: 40px;
+position: relative;
+}
+
+
+.nav{
+display: inline-block;
+font-family: calibri;
+margin-left: 50px;
+
+}
+
+.nav:hover{
+display: inline-block;
+font-family: calibri;
+margin-left: 50px;
+color: darkred;
+}
+.tipos{
+text-align: center;
+
+}
+
+
+
+.footer{
+background-color: #58181f;
+width: 100%;
+height: 150px;
+margin-top:100px;
+padding: 0;
+position: relative;
+
+}
+
+#insidefooter{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+font-size: 20px;
+color: white;
+}
+
+.ajustes-icones{
+list-style: none;
+position: relative;
+margin-left: 260px;
+margin-top: 170px;
+display: inline-block;
+flex-direction: row;
+justify-content: center;
+
+}
+.lista-inline{
+	display: inline-block;
+	padding-left:150px;
+	transform: translate(-50%, -50%);
+
+
+}
+
+
+
+.lista-nome{
+	display: inline-block;
+	font-family: calibri;
+	font-size: 20px;
+font-weight: 900;
+}
+
+
+.ajustes-nome{
+
+list-style: none;
+display: inline-block;
+
+margin-left:0px;
+position: absolute;
+text-align: center;
+margin-top: -30px;
+
+}
+
+#containerflex{
+justify-content: center;
+flex-direction: row;
+
+
+}
+
